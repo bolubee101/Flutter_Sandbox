@@ -37,7 +37,9 @@ class _MyHomePageState extends State<MyHomePage> {
         child: CupertinoButton(
           child: Text("Sign In"),
           onPressed: () {
-            Authentication.SignInOrSignUp(email: "abass@gmail.com", password: "password");
+            Authentication.SignInOrSignUp(email: "newmail@gmail.com", password: "password");
+            //You still there???
+            //Something is wrong, I forgot to set up web on the firebase console. Let me try it now.
           },
         ),
       ),
